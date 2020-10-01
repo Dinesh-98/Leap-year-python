@@ -10,7 +10,4 @@ def leapyear(year):
     return leap
 #input and output Respectively
 year = int(input())
-if leapyear(year) == True:
-    print("It's a leap year")
-if leapyear(year) == False:
-    print("It's not a leap year")
+print(leapyear(year))
